@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ORTHO-SIM — Simulate Before You Intervene. Patient-specific biomechanical simulation for orthotic and prosthetic decision-making.">
+  <title>ORTHO-SIM | Simulate Before You Intervene</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="ORTHO-SIM home">
+    <span class="brand-mark">O</span><span>ORTHO<span class="accent">-SIM</span></span>
+  </a>
+  <button class="menu" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+  <nav>
+    <a href="#problem">Problem</a>
+    <a href="#solution">Solution</a>
+    <a href="#validation">Validation</a>
+    <a href="#case">Test Case</a>
+    <a class="nav-cta" href="#partner">Partner With Us</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow"><span></span> THE FUTURE OF O&amp;P DECISION-MAKING</div>
+      <h1>Simulate<br><em>before</em> you intervene.</h1>
+      <p class="hero-lead">ORTHO-SIM is a patient-specific biomechanical platform being developed to help clinicians explore orthotic and prosthetic interventions before committing to physical fabrication.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#solution">Explore ORTHO-SIM <span>→</span></a>
+        <a class="button ghost" href="#validation">How we validate</a>
+      </div>
+      <div class="status"><span class="pulse"></span> Prototype &amp; validation phase</div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="scan-ring ring1"></div><div class="scan-ring ring2"></div>
+      <div class="skeleton">
+        <div class="skull"></div>
+        <div class="spine"></div>
+        <div class="bone arm a1"></div><div class="bone arm a2"></div>
+        <div class="bone forearm f1"></div><div class="bone forearm f2"></div>
+        <div class="bone thigh t1"></div><div class="bone thigh t2"></div>
+        <div class="bone shin s1"></div><div class="bone shin s2"></div>
+        <div class="joint j1"></div><div class="joint j2"></div><div class="joint j3"></div><div class="joint j4"></div>
+      </div>
+      <div class="data-card card-top"><span>GAIT ANALYSIS</span><strong>Patient-specific</strong></div>
+      <div class="data-card card-bottom"><span>INTERVENTION</span><strong>Simulate → Compare</strong></div>
+      <div class="grid-floor"></div>
+    </div>
+  </div>
+</section>
+
+<section class="ticker">
+  <div>ORTHOTICS</div><div>PROSTHETICS</div><div>BIOMECHANICS</div><div>SIMULATION</div><div>CLINICAL DECISION SUPPORT</div>
+</section>
+
+<section class="section" id="problem">
+  <div class="section-tag">01 / THE PROBLEM</div>
+  <div class="split">
+    <div><h2>We often build first.<br><span>Then we find out.</span></h2></div>
+    <div>
+      <p class="large">In orthotics and prosthetics, a clinical decision can lead directly to fabrication. Only after fitting can we observe how the intervention changes the patient's movement.</p>
+      <p>If the outcome is not what we expected, the device may need modification, reinforcement, replacement or an entirely different approach. That costs time, materials, money — and another patient visit.</p>
+      <div class="quote">“What if we could test the intervention virtually before we intervene physically?”</div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="solution">
+  <div class="section-tag">02 / THE SOLUTION</div>
+  <div class="center-head">
+    <h2>A clinical sandbox<br>for <span>movement.</span></h2>
+    <p>ORTHO-SIM aims to create a digital representation of the patient and their movement, then allow clinicians to explore possible interventions and their biomechanical consequences.</p>
+  </div>
+  <div class="process">
+    <div class="process-card"><b>01</b><div class="icon">◉</div><h3>Patient</h3><p>Anatomy, measurements, posture, alignment and relevant clinical information.</p></div>
+    <div class="arrow">→</div>
+    <div class="process-card"><b>02</b><div class="icon">⌁</div><h3>Movement</h3><p>Standing, gait, joint and segment motion, asymmetries and compensations.</p></div>
+    <div class="arrow">→</div>
+    <div class="process-card highlight"><b>03</b><div class="icon">✦</div><h3>Intervention</h3><p>Explore an orthotic or prosthetic concept before physical fabrication.</p></div>
+    <div class="arrow">→</div>
+    <div class="process-card"><b>04</b><div class="icon">◌</div><h3>Simulation</h3><p>Compare predicted biomechanical behaviour and support clinical reasoning.</p></div>
+  </div>
+</section>
+
+<section class="section" id="validation">
+  <div class="section-tag">03 / VALIDATION</div>
+  <div class="split validation-intro">
+    <div><h2>How do we know<br><span>ORTHO-SIM works?</span></h2></div>
+    <div><p class="large">We are not trying to prove the concept with a beautiful animation. We need evidence.</p><p>Our validation pathway connects the digital model to clinical judgement and, ultimately, to real-world patient outcomes.</p></div>
+  </div>
+  <div class="validation-grid">
+    <div class="v-card"><span>01</span><h3>Technical validation</h3><p>Can we reproduce patient anatomy, posture and movement with sufficient accuracy for the intended use?</p></div>
+    <div class="v-card"><span>02</span><h3>Clinical validation</h3><p>Do experienced O&amp;P clinicians judge the simulated intervention and biomechanical response as clinically plausible?</p></div>
+    <div class="v-card"><span>03</span><h3>Real-world validation</h3><p>When an intervention is physically fabricated and fitted, does the observed outcome correspond with what ORTHO-SIM predicted?</p></div>
+  </div>
+</section>
+
+<section class="section case" id="case">
+  <div class="section-tag">04 / TEST CASE 001</div>
+  <div class="case-layout">
+    <div class="case-copy">
+      <div class="case-label">INITIAL CLINICAL USE CASE</div>
+      <h2>One patient.<br>Two possible<br><span>interventions.</span></h2>
+      <p>An 11-year-old boy presented with lower-limb weakness, suspected quadriceps weakness, knee hyperextension and an abnormal ankle/foot movement pattern.</p>
+      <p>A KAFO was prescribed for lower-limb control. After fabrication and fitting, the patient was unable to use it successfully.</p>
+      <p class="strong">The clinical question:</p>
+      <div class="case-question">Could controlling the ground-reaction force through a suitably designed AFO influence the knee and improve gait without restricting the entire limb?</div>
+    </div>
+    <div class="case-visual">
+      <div class="compare">
+        <div class="compare-col"><span>INTERVENTION A</span><h3>KAFO</h3><div class="leg diagram"><i></i><b></b><em></em></div><small>Full limb control</small></div>
+        <div class="vs">VS</div>
+        <div class="compare-col active"><span>INTERVENTION B</span><h3>AFO</h3><div class="leg diagram"><i></i><b></b><em></em></div><small>Ground-reaction control</small></div>
+      </div>
+      <div class="sim-bar"><span>ORTHO-SIM</span><div><i></i></div><strong>SIMULATE → COMPARE → TEST</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section future">
+  <div class="section-tag">05 / THE VISION</div>
+  <div class="vision-box">
+    <div><div class="big-number">01</div><p>Start with one validated clinical problem.</p></div>
+    <div><div class="big-number">02</div><p>Expand to more O&amp;P interventions and patient types.</p></div>
+    <div><div class="big-number">03</div><p>Develop a platform clinicians can use before fabrication.</p></div>
+  </div>
+  <div class="center-head final-head">
+    <h2>Better questions.<br><span>Better interventions.</span></h2>
+    <p>ORTHO-SIM is being built at the intersection of clinical expertise, biomechanics and digital technology.</p>
+  </div>
+</section>
+
+<section class="partner" id="partner">
+  <div class="partner-inner">
+    <div>
+      <div class="section-tag">06 / LET'S BUILD IT</div>
+      <h2>Help us move<br>from concept to <span>evidence.</span></h2>
+      <p>We are looking for clinical, technology, research and funding partners to develop and validate the first working ORTHO-SIM prototype.</p>
+    </div>
+    <div class="partner-actions">
+      <a class="button primary" href="mailto:hello@orthosim.co.za">Become a partner <span>→</span></a>
+      <a class="button light" href="mailto:hello@orthosim.co.za?subject=ORTHO-SIM%20Pilot%20Interest">Join the pilot</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand"><span class="brand-mark">O</span> ORTHO-SIM</div>
+  <div>SIMULATE BEFORE YOU INTERVENE.</div>
+  <div>© <span id="year"></span> ORTHO-SIM</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => document.body.classList.remove('nav-open')));
+</script>
+</body>
+</html>
